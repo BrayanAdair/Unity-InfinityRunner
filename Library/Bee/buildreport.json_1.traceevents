@@ -1,0 +1,499 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1677511172232404, "dur": 1132306, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677511172233075, "dur": 15866, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677511172248946, "dur": 83063, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677511172332012, "dur": 618415, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677511172950431, "dur": 406258, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677511173356693, "dur": 8014, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677511173366142, "dur": 20, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1677511172646866, "dur": 272139, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677511172648791, "dur": 109126, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677511172884156, "dur": 10314, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677511172894481, "dur": 24488, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677511172895959, "dur": 20886, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677511172929445, "dur": 2569, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677511172926793, "dur": 5294, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677511173366341, "dur": 544, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1677511173061934, "dur":2994, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173064945, "dur":109, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677511173065078, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677511173065105, "dur":481, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677511173065656, "dur":1475, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173067131, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173342965, "dur":254, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173343219, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173343243, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173343247, "dur":40, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173343287, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173343291, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173343301, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173343304, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173343314, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173343366, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173343383, "dur":3438, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677511173066890, "dur":256, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173067150, "dur":12506, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173079683, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677511173079701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173082353, "dur":1007, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677511173083371, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677511173083466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173084602, "dur":6779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677511173091388, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677511173091643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173091900, "dur":4202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677511173096183, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677511173096446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173096692, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677511173100798, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677511173101060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173101279, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1677511173103505, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677511173103741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173103754, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677511173106452, "dur":58973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173165435, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173165621, "dur":17232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173182939, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173183272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173183280, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173186564, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173186881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173186892, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173189581, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173189909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173189918, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173192738, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173193331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173193340, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173197179, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173197602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173197619, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173200214, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173200652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173200664, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173203385, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173203713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173203726, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173205722, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173205978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173205986, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173209030, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173209370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173209379, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173212480, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173212813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173212822, "dur":7369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173220272, "dur":2603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173222883, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173222897, "dur":5027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173228010, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173228326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173228340, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173231136, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173231527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173231541, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173234647, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173234916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173234929, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173237723, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173238151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173238168, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173240418, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173240668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173240679, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173243756, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173244031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173244039, "dur":2963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173247204, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173247505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173247513, "dur":6226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173253818, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173254058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173254067, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173257472, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173257742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173257757, "dur":3474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173261314, "dur":1381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173262699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173262710, "dur":9216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173272015, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173272434, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173272454, "dur":11500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173286899, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173287387, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173287405, "dur":4906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173292411, "dur":2638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173295071, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173295198, "dur":13106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173308434, "dur":9523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173317966, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173317982, "dur":13346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677511173331423, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1677511173331526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173331545, "dur":3371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1677511173335004, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1677511173335308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677511173335322, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1677511173337245, "dur":5669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173066981, "dur":180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173067161, "dur":12505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173079683, "dur":1343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677511173081031, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173084555, "dur":6918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677511173091547, "dur":1205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1677511173092756, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173092772, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1677511173095917, "dur":1015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677511173096940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173096954, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677511173100401, "dur":1336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677511173101745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173101760, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677511173104207, "dur":1902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1677511173106116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173106128, "dur":4387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1677511173110597, "dur":9606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1677511173120214, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173120233, "dur":4945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1677511173125261, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173125592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173127671, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173130113, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173130456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173130660, "dur":2116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173132856, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173133260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173133274, "dur":5293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173138663, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173138982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173138995, "dur":3428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173142544, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173142847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173142859, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173144978, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173145244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173145254, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173148013, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173148429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173148442, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173150933, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173151197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173151207, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173154233, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173154508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173154518, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173156992, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173157292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173157300, "dur":3713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173161099, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173161364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173161378, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173163526, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173163891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173163905, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173166974, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173167281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173167293, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173169594, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173170198, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173170220, "dur":3770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173174081, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173174395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173174409, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173178300, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173178652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173178668, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173182335, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173182694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173182707, "dur":6544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173189487, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173189808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173189820, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173193004, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173193280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173193289, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173198413, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173199227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173199244, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173202474, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173202734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173202743, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173206140, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173206895, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173206910, "dur":5447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173212427, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173212676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173212684, "dur":3070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173215842, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173216152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173216167, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173218621, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173218879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173218893, "dur":2294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173221265, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173221521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173221534, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173224910, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173225206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173225264, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173228370, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173228619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173228628, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173231573, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173232184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173232199, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173235084, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173235834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173235849, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173239300, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173239705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173239763, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173243457, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173243689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173243697, "dur":4152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173247949, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173248219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173248229, "dur":2792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173251116, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173251366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173251377, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173253311, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173253553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173253561, "dur":3797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173257436, "dur":4869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173262312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173262324, "dur":9620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173272028, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173272435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173272454, "dur":4762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173278777, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173279350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173279367, "dur":5228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173284674, "dur":3583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173288263, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173288276, "dur":13309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173301678, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173302109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173302125, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173305126, "dur":1145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173306283, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173306302, "dur":5067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173311452, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173311710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173311904, "dur":5001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677511173316986, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1677511173317067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173317191, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1677511173319507, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1677511173319581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677511173319589, "dur":23217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1677511173342884, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1677511173342889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173066960, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173067152, "dur":12512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173079683, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1677511173080010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173084925, "dur":6787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1677511173091821, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1677511173092022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173092032, "dur":4209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1677511173096321, "dur":931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677511173097257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173097268, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677511173100251, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1677511173100496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173101520, "dur":3594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1677511173105193, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1677511173105449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173105463, "dur":4870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1677511173110418, "dur":136855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677511173247277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173247285, "dur":68015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677511173315673, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1677511173316009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173316848, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1677511173319256, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1677511173319370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173319383, "dur":6663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1677511173326138, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1677511173326415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173326432, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1677511173329852, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677511173329981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173329994, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1677511173334142, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1677511173334216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677511173334225, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1677511173336797, "dur":6115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173067044, "dur":128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173067172, "dur":12489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173079683, "dur":1339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1677511173081028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173084649, "dur":7707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1677511173092445, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1677511173092679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173093772, "dur":3708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1677511173097583, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1677511173097809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173097820, "dur":4001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1677511173101904, "dur":1053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1677511173102967, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173102985, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1677511173105211, "dur":4749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173109969, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173111117, "dur":3403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173114618, "dur":1106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner.exe" }}
+,{ "pid":12345, "tid":4, "ts":1677511173115731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173115742, "dur":6784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner.exe" }}
+,{ "pid":12345, "tid":4, "ts":1677511173122613, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1677511173122911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173123781, "dur":17862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1677511173141736, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173142032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173142045, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173144554, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173144883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173144896, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173147593, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173147853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173147866, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173150523, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173150797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173150810, "dur":3321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173154222, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173154505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173154518, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173156979, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173157248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173157261, "dur":4201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173161534, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173161894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173162047, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173163975, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173164242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173164253, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173167179, "dur":1885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173169075, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173169094, "dur":4905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173174095, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173174412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173174421, "dur":3824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173178327, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173178827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173178836, "dur":3852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173182760, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173183000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173183009, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173186541, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173186877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173186891, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173189607, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173189843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173189851, "dur":2772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173192705, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173192987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173193001, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173196100, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173196473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173196487, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173199470, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173199743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173199755, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173201988, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173202304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173202318, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173205543, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173205801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173205814, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173208793, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173209108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173209122, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173212307, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173212570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173212582, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173215974, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173216519, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173216531, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173219133, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173219422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173219432, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173221516, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173221765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173221784, "dur":2820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173224720, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173225040, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173225058, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173228399, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173228814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173228822, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173232059, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173232445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173232454, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173235419, "dur":886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173236313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173236325, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173239642, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173240307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173240318, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173243236, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173243500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173243514, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173246972, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173247220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173247233, "dur":3195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173250515, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173250763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173250779, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173253204, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173253514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173253528, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173257305, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173257745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173257757, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173260934, "dur":772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173261712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173261791, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173265556, "dur":1610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173267181, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173267217, "dur":5350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173272650, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173272929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173272939, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173275936, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173276340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173276354, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173279722, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173280560, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173280575, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173284792, "dur":3008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173287805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173287815, "dur":14810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173302718, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173303296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173303313, "dur":3345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173306743, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173307117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173307129, "dur":4056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173311380, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173312005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173312016, "dur":12888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677511173325251, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1677511173325347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173325359, "dur":3512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1677511173328953, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1677511173329224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173329240, "dur":4283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1677511173333632, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1677511173333711, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677511173333733, "dur":2969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/braya/OneDrive/Documentos/exe inifinityrun/infinity runner_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1677511173336816, "dur":6100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677511173350689, "dur":3527, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1677511173367033, "dur": 1500, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677511173366121, "dur": 2468, "ph": "X", "name": "Write chrome-trace events", "args": {} },
